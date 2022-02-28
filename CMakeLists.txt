@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.19)
+project(BrickBreaker)
+set(SFML_STATIC_LIBRARIES TRUE)
+set(CMAKE_CXX_STANDARD 14)
+find_package(SFML 2.5 COMPONENTS system window graphics)
+add_executable(BrickBreaker main.cpp menu.cpp menu.h)
+target_link_libraries(BrickBreaker sfml-system sfml-window sfml-graphics sfml-Audio)
