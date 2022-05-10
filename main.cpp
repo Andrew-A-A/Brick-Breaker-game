@@ -5,13 +5,13 @@
 using  namespace std;
 using namespace sf;
 int pagenumber;
-//constants
+//constants.
 const int WindowWidth = 640.0f;
 const int WindowHeight = 480.0f;
 const float ballRedius = 7.0f, ballVelocity = 8.9f;
 const float barWidth = 120.0f, barHeight = 20.0f;
 
-//Ball and bar structs
+//Ball and bar structs.
 struct Ball
 {
     CircleShape shape;
